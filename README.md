@@ -21,8 +21,12 @@ This project involves the analysis of stock prices of companies listed on Yahoo 
 - **ADBE Stock:** The model successfully predicted future prices with an accuracy of **96.05%**.
 - **PFE Stock:** The model achieved a prediction accuracy of **96.81%**, demonstrating its robustness.
 
-## Conclusion
-This project demonstrates the effectiveness of using LSTM for stock price prediction, providing highly accurate forecasts. The results indicate that this approach can be reliably used for financial forecasting in real-world scenarios.
+## Additional Files
+This repository also contains two additional Python scripts that explore graph analysis using Plotly and Matplotlib:
+- **`python project 4.py`:** This script focuses on graph analysis using Plotly, enabling interactive and visually appealing data visualizations.
+- **`python project 5.py`:** This script explores graph analysis using Matplotlib, offering static yet highly customizable plots.
+
+These files are not directly related to the stock price prediction work but are included in the repository for reference and additional analysis purposes.
 
 ## Installation & Usage
 1. Clone the repository:
@@ -34,9 +38,14 @@ This project demonstrates the effectiveness of using LSTM for stock price predic
     ```bash
     pip install -r requirements.txt
     ```
-3. Run the analysis and prediction script:
+3. Run the stock analysis and prediction script:
     ```bash
-    python python_project_3.py
+    python python project 3.ipynb
+    ```
+4. (Optional) Run the graph analysis scripts:
+    ```bash
+    python python project 4.ipynb  # For Plotly visualizations
+    python python project 5.ipynb  # For Matplotlib visualizations
     ```
 
 ## License
